@@ -1,0 +1,9 @@
+[Unit]
+Description=Run Earthquake Detection System
+
+[Timer]
+OnUnitActiveSec=30s
+Unit=eq-dect.service   
+ 
+[Install]
+WantedBy=multi-user.target
